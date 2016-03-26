@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA09E0341CA1AD6E00458934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09E0331CA1AD6E00458934 /* main.m */; };
+		CA09E0371CA1AD6E00458934 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09E0361CA1AD6E00458934 /* AppDelegate.m */; };
+		CA09E03A1CA1AD6E00458934 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09E0391CA1AD6E00458934 /* ViewController.m */; };
+		CA09E03D1CA1AD6E00458934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA09E03B1CA1AD6E00458934 /* Main.storyboard */; };
+		CA09E03F1CA1AD6E00458934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA09E03E1CA1AD6E00458934 /* Assets.xcassets */; };
+		CA09E0421CA1AD6E00458934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA09E0401CA1AD6E00458934 /* LaunchScreen.storyboard */; };
+		CA09E04B1CA1AD8400458934 /* musicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09E04A1CA1AD8400458934 /* musicTableViewCell.m */; };
+		CA8F17711CA1BDC5008955C0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8F17701CA1BDC5008955C0 /* MBProgressHUD.m */; };
+		CA8F17981CA2A177008955C0 /* MPMediaItem+ExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8F17971CA2A177008955C0 /* MPMediaItem+ExportSession.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA09E02F1CA1AD6E00458934 /* GetAudiosFromiPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetAudiosFromiPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA09E0331CA1AD6E00458934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA09E0351CA1AD6E00458934 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA09E0361CA1AD6E00458934 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA09E0381CA1AD6E00458934 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA09E0391CA1AD6E00458934 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA09E03C1CA1AD6E00458934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA09E03E1CA1AD6E00458934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA09E0411CA1AD6E00458934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA09E0431CA1AD6E00458934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA09E0491CA1AD8400458934 /* musicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicTableViewCell.h; sourceTree = "<group>"; };
+		CA09E04A1CA1AD8400458934 /* musicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = musicTableViewCell.m; sourceTree = "<group>"; };
+		CA8F176F1CA1BDC5008955C0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CA8F17701CA1BDC5008955C0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CA8F17961CA2A177008955C0 /* MPMediaItem+ExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPMediaItem+ExportSession.h"; sourceTree = "<group>"; };
+		CA8F17971CA2A177008955C0 /* MPMediaItem+ExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPMediaItem+ExportSession.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA09E02C1CA1AD6E00458934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA09E0261CA1AD6E00458934 = {
+			isa = PBXGroup;
+			children = (
+				CA09E0311CA1AD6E00458934 /* GetAudiosFromiPod */,
+				CA09E0301CA1AD6E00458934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA09E0301CA1AD6E00458934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA09E02F1CA1AD6E00458934 /* GetAudiosFromiPod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA09E0311CA1AD6E00458934 /* GetAudiosFromiPod */ = {
+			isa = PBXGroup;
+			children = (
+				CA09E0351CA1AD6E00458934 /* AppDelegate.h */,
+				CA09E0361CA1AD6E00458934 /* AppDelegate.m */,
+				CA8F17721CA1BDCD008955C0 /* Tools */,
+				CA8F176E1CA1AED2008955C0 /* Controller */,
+				CA8F176D1CA1AECA008955C0 /* View */,
+				CA09E03B1CA1AD6E00458934 /* Main.storyboard */,
+				CA09E03E1CA1AD6E00458934 /* Assets.xcassets */,
+				CA09E0401CA1AD6E00458934 /* LaunchScreen.storyboard */,
+				CA09E0431CA1AD6E00458934 /* Info.plist */,
+				CA09E0321CA1AD6E00458934 /* Supporting Files */,
+			);
+			path = GetAudiosFromiPod;
+			sourceTree = "<group>";
+		};
+		CA09E0321CA1AD6E00458934 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA09E0331CA1AD6E00458934 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA8F176D1CA1AECA008955C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA09E0491CA1AD8400458934 /* musicTableViewCell.h */,
+				CA09E04A1CA1AD8400458934 /* musicTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CA8F176E1CA1AED2008955C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA09E0381CA1AD6E00458934 /* ViewController.h */,
+				CA09E0391CA1AD6E00458934 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CA8F17721CA1BDCD008955C0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F176F1CA1BDC5008955C0 /* MBProgressHUD.h */,
+				CA8F17701CA1BDC5008955C0 /* MBProgressHUD.m */,
+				CA8F17961CA2A177008955C0 /* MPMediaItem+ExportSession.h */,
+				CA8F17971CA2A177008955C0 /* MPMediaItem+ExportSession.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA09E02E1CA1AD6E00458934 /* GetAudiosFromiPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA09E0461CA1AD6E00458934 /* Build configuration list for PBXNativeTarget "GetAudiosFromiPod" */;
+			buildPhases = (
+				CA09E02B1CA1AD6E00458934 /* Sources */,
+				CA09E02C1CA1AD6E00458934 /* Frameworks */,
+				CA09E02D1CA1AD6E00458934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetAudiosFromiPod;
+			productName = GetAudiosFromiPod;
+			productReference = CA09E02F1CA1AD6E00458934 /* GetAudiosFromiPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA09E0271CA1AD6E00458934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "李宏远";
+				TargetAttributes = {
+					CA09E02E1CA1AD6E00458934 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6FHK55P2SJ;
+					};
+				};
+			};
+			buildConfigurationList = CA09E02A1CA1AD6E00458934 /* Build configuration list for PBXProject "GetAudiosFromiPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA09E0261CA1AD6E00458934;
+			productRefGroup = CA09E0301CA1AD6E00458934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA09E02E1CA1AD6E00458934 /* GetAudiosFromiPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA09E02D1CA1AD6E00458934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09E0421CA1AD6E00458934 /* LaunchScreen.storyboard in Resources */,
+				CA09E03F1CA1AD6E00458934 /* Assets.xcassets in Resources */,
+				CA09E03D1CA1AD6E00458934 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA09E02B1CA1AD6E00458934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09E03A1CA1AD6E00458934 /* ViewController.m in Sources */,
+				CA8F17981CA2A177008955C0 /* MPMediaItem+ExportSession.m in Sources */,
+				CA09E0371CA1AD6E00458934 /* AppDelegate.m in Sources */,
+				CA8F17711CA1BDC5008955C0 /* MBProgressHUD.m in Sources */,
+				CA09E0341CA1AD6E00458934 /* main.m in Sources */,
+				CA09E04B1CA1AD8400458934 /* musicTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA09E03B1CA1AD6E00458934 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA09E03C1CA1AD6E00458934 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA09E0401CA1AD6E00458934 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA09E0411CA1AD6E00458934 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA09E0441CA1AD6E00458934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA09E0451CA1AD6E00458934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA09E0471CA1AD6E00458934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetAudiosFromiPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HongYuan-Li.GetAudiosFromiPod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA09E0481CA1AD6E00458934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetAudiosFromiPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HongYuan-Li.GetAudiosFromiPod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA09E02A1CA1AD6E00458934 /* Build configuration list for PBXProject "GetAudiosFromiPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA09E0441CA1AD6E00458934 /* Debug */,
+				CA09E0451CA1AD6E00458934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA09E0461CA1AD6E00458934 /* Build configuration list for PBXNativeTarget "GetAudiosFromiPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA09E0471CA1AD6E00458934 /* Debug */,
+				CA09E0481CA1AD6E00458934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA09E0271CA1AD6E00458934 /* Project object */;
+}
