@@ -17,6 +17,8 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    
+    [super awakeFromNib];
 }
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {

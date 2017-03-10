@@ -88,7 +88,7 @@ static NSInteger i = 0;
                      i++;
                      if (i == count) {
                        
-                         NSLog(@"导入第%ld首",i);
+                         NSLog(@"导入第%ld首",(long)i);
                          NSLog(@"全部导入完毕");
                          NSString *songTitle = [song valueForProperty: MPMediaItemPropertyTitle];
                          [[NSNotificationCenter defaultCenter] postNotificationName:@"outPutComplete" object:songTitle];
@@ -98,7 +98,7 @@ static NSInteger i = 0;
                           NSString *songTitle = [song valueForProperty: MPMediaItemPropertyTitle];
                          [[NSNotificationCenter defaultCenter] postNotificationName:@"outOneComplete" object:songTitle];
                          
-                         NSLog(@"导入第%ld首",i);
+                         NSLog(@"导入第%ld首",(long)i);
                      }
     
                      break;
